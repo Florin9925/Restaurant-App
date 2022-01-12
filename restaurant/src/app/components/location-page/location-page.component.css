@@ -1,0 +1,68 @@
+.container-details{
+      display: flex;
+      justify-content: space-around;
+}
+img{
+      width: 25vw;
+      border-radius: 20px;
+}
+.contact-details{
+      color: white;
+      font-family: "Nunito";
+      padding-top: 50px;
+}
+#title{
+      font-size: 30px;
+      color: white;
+      font-family: "Nunito";
+
+}
+.reserv-form{
+      background: #1C1B1B; 
+	border: solid #f8c97d 1px; 
+      border-radius: 20px;
+      width: 30vw;
+     
+}
+label{
+      font-size: 15px;
+      padding-bottom: 5px;
+      font-family: 'Nunito', sans-serif;
+}
+input{
+      font-family: 'Nunito', sans-serif;
+}
+.form-group{
+      font: normal normal  14px/21px Segoe UI;
+      padding: 15px;
+      padding-bottom: 5px;
+      letter-spacing: 0;
+      color: #ffffff;
+      opacity: 1;
+    }
+    .form-row{
+          display: flex;
+          justify-content: space-between;
+    }
+    .form-row-people{
+      display: flex;
+      justify-content: space-around;
+    }
+    .btn{
+      background: #f8c97d 0 0 no-repeat padding-box;
+      border-radius: 5px;
+      border: 0;
+      width: 130px;
+      margin-top: 30px;
+      font: normal normal 600 14px/27px  'Nunito';
+      letter-spacing: 0;
+      color: #1c1b1b;
+      text-transform: uppercase;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .button{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+    }

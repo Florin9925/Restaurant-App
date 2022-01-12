@@ -1,0 +1,39 @@
+.carousel-container{
+      width:80vw;
+      display: flex;
+      justify-content: center;
+      height: 15vw;
+}
+.img-slider{
+      display: flex;
+      justify-content: space-around;
+}
+.slide{
+      display: flex;
+      justify-content: space-around;
+}
+.carousel{
+      display: flex;
+      justify-content: space-around;
+}
+img{
+      height: 15vw;
+}
+.title{
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      font-size: 30px;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+}
+.description{
+      color: white;
+      font-family: 'Oooh Baby', cursive;
+      font-size: 26px;
+      padding-top: 20px;
+      padding-right: 10vw;
+      padding-left: 10vw;
+      display: flex;
+      justify-content: center;
+}

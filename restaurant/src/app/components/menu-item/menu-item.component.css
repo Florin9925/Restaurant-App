@@ -1,0 +1,32 @@
+#title{
+      color: white;
+      font-family: "Dancing Script";
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+}
+hr{
+      color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 0px;
+}
+#food{
+      color: white;
+      font-family: "Dancing Script";
+      font-size: 22px;
+      display: flex;
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: space-between;
+}
+#description{
+      margin-left: 10px;
+      color: white;
+      font-family: "Dancing Script";
+      font-size: 18px;
+      margin-top: -10px;
+}
+.col1{
+width: 40vw;
+}

@@ -1,0 +1,18 @@
+<div class="header">
+  <div>
+    <img class="logo" src="../assets/logo.jpg">
+  </div>
+
+  <div class="nav-items">
+    <a routerLink = "/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">HOME</a>
+    <a routerLink = "/about" routerLinkActive="active">ABOUT US</a>
+    <a routerLink = "/menu" routerLinkActive="active">MENU</a>
+    <a routerLink = "/reservation" routerLinkActive="active">RESERVATION</a>
+    <a routerLink = "/location" routerLinkActive="active">LOCATION </a>
+    <img id="fblogo" src="../assets/fb.png">
+    <img id="fblogo" src="../assets/twitter.png">
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>

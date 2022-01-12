@@ -1,0 +1,51 @@
+<div class="menu-container">
+
+      <div class="images">
+            <img class="d-block w-100" src="../../../assets/r17.jpg"  >
+                  <img class="d-block w-100" src="../../../assets/r16.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r15.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r20.jpg">
+                  <img class="d-block w-100" src="../../../assets/r18.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r19.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r21.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r22.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r23.jpg"> 
+                  <img class="d-block w-100" src="../../../assets/r24.jpg"> 
+
+
+      </div>
+
+      <div class="col1">
+            <div id="title">Appetizers</div>
+            <div  *ngFor="let p of appetizers">
+                  <app-menu-item [name]="p.name" [price]="p.price" [description]="p.description" ></app-menu-item>
+            
+            </div>
+      
+            <div id="title">Pizza</div>
+            <div  *ngFor="let p of pizza">
+                  <app-menu-item [name]="p.name" [price]="p.price" [description]="p.description" ></app-menu-item>
+            
+            </div>
+          
+      </div>
+           
+
+      <div class="col2">
+            <div id="title">Entrees</div>
+            <div  *ngFor="let p of entrees">
+                  <app-menu-item [name]="p.name" [price]="p.price" [description]="p.description" ></app-menu-item>
+            
+            </div>
+            <div id="title">Pasta</div>
+            <div  *ngFor="let p of pasta">
+                  <app-menu-item [name]="p.name" [price]="p.price" [description]="p.description" ></app-menu-item>
+            
+            </div>
+            <div id="title">Desserts</div>
+            <div  *ngFor="let p of desserts">
+                  <app-menu-item [name]="p.name" [price]="p.price" [description]="p.description" ></app-menu-item>
+            
+            </div>
+      </div>
+</div>

@@ -1,0 +1,22 @@
+.menu-container{
+      display: flex;
+      justify-content: flex-start;
+}
+.images{
+      width: 20vw;
+}
+#title{
+      color: white;
+      font-family: "Dancing Script";
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+}
+
+.col1{
+width: 40vw;
+}
+.col2{
+      width: 40vw;
+
+}
